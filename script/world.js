@@ -27,14 +27,14 @@ var World = {
 	STICKINESS: 0.5, // 0 <= x <= 1
 	LIGHT_RADIUS: 2,
 	BASE_WATER: 10,
-	MOVES_PER_FOOD: 2,
-	MOVES_PER_WATER: 1,
+	MOVES_PER_FOOD: 35,
+	MOVES_PER_WATER: 25,
 	DEATH_COOLDOWN: 120,
 	FIGHT_CHANCE: 0.20,
 	BASE_HEALTH: 10,
 	BASE_HIT_CHANCE: 0.8,
-	MEAT_HEAL: 8,
-	MEDS_HEAL: 20,
+	MEAT_HEAL: 30,
+	MEDS_HEAL: 50,
 	FIGHT_DELAY: 3, // At least three moves between fights
 	NORTH: [ 0, -1],
 	SOUTH: [ 0,  1],
@@ -82,9 +82,8 @@ var World = {
 		'laser rifle': {
 			verb: _('blast'),
 			type: 'ranged',
-			damage: 8,
-			cooldown: 1,
-			cost: { 'energy cell': 1 }
+			damage: 40,
+			cooldown: 1
 		},
 		'grenade': {
 			verb: _('lob'),
@@ -97,8 +96,7 @@ var World = {
 			verb: _('tangle'),
 			type: 'ranged',
 			damage: 'stun',
-			cooldown: 15,
-			cost: { 'bolas': 1 }
+			cooldown: 15
 		}
 	},
 
