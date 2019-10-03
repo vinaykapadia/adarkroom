@@ -338,21 +338,21 @@ var Room = {
 		'scales': {
 			type: 'good',
 			cost: function() {
-				return { fur: 150 };
+				return { fur: 1 };
 			}
 		},
 		'teeth': {
 			type: 'good',
 			cost: function() {
-				return { fur: 300 };
+				return { fur: 3 };
 			}
 		},
 		'iron': {
 			type: 'good',
 			cost: function() {
 				return {
-					'fur': 150,
-					'scales': 50
+					'fur': 1,
+					'scales': 1
 				};
 			}
 		},
@@ -360,8 +360,8 @@ var Room = {
 			type: 'good',
 			cost: function() {
 				return {
-					'fur': 200,
-					'teeth': 50
+					'fur': 1,
+					'teeth': 1
 				};
 			}
 		},
@@ -369,9 +369,9 @@ var Room = {
 			type: 'good',
 			cost: function() {
 				return {
-					'fur': 300,
-					'scales': 50,
-					'teeth': 50
+					'fur': 1,
+					'scales': 1,
+					'teeth': 1
 				};
 			}
 		},
@@ -379,7 +379,7 @@ var Room = {
 			type: 'good',
 			cost: function() {
 				return {
-					'scales': 50, 'teeth': 30
+					'scales': 1, 'teeth': 1
 				};
 			}
 		},
@@ -387,7 +387,7 @@ var Room = {
 			type: 'good',
 			cost: function() {
 				return {
-					'scales': 10
+					'scales': 1
 				};
 			}
 		},
@@ -395,8 +395,8 @@ var Room = {
 			type: 'good',
 			cost: function() {
 				return {
-					'scales': 10,
-					'teeth': 10
+					'scales': 1,
+					'teeth': 1
 				};
 			}
 		},
@@ -404,7 +404,7 @@ var Room = {
 			type: 'weapon',
 			cost: function() {
 				return {
-					'teeth': 10
+					'teeth': 1
 				};
 			}
 		},
@@ -412,8 +412,8 @@ var Room = {
 			type: 'weapon',
 			cost: function() {
 				return {
-					'scales': 100,
-					'teeth': 50
+					'scales': 1,
+					'teeth': 1
 				};
 			}
 		},
@@ -421,8 +421,8 @@ var Room = {
 			type: 'weapon',
 			cost: function() {
 				return {
-					'scales': 500,
-					'teeth': 250
+					'scales': 1,
+					'teeth': 1
 				};
 			}
 		},
@@ -430,9 +430,9 @@ var Room = {
 			type: 'good',
 			cost: function() {
 				return {
-					'fur': 1500,
-					'scales': 750,
-					'teeth': 300
+					'fur': 1,
+					'scales': 1,
+					'teeth': 1
 				};
 			}
 		},
@@ -441,9 +441,9 @@ var Room = {
 			maximum: 1,
 			cost: function() {
 				return { 
-					fur: 400, 
-					scales: 20, 
-					teeth: 10 
+					fur: 1, 
+					scales: 1, 
+					teeth: 1
 				};
 			}
 		}
